@@ -7,6 +7,7 @@ dotnet
 {
     assembly("System.Core")
     {
+        Version = '4.0.0.0';
         type("System.Security.Cryptography.X509Certificates.CertificateRequest"; CertificateRequest) { }
     }
 
